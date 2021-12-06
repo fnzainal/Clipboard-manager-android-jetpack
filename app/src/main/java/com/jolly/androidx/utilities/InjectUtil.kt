@@ -1,9 +1,9 @@
-package com.jolly.androidx.Utilities
+package com.jolly.androidx.utilities
 
 import android.content.Context
-import com.jolly.androidx.Room.CopyRepository
-import com.jolly.androidx.Room.CopyRoomDatabase
-import com.jolly.androidx.ViewModels.CopyModelRepoFactory
+import com.jolly.androidx.room.CopyRepository
+import com.jolly.androidx.room.CopyRoomDatabase
+import com.jolly.androidx.viewmodel.CopyModelRepoFactory
 
 object InjectUtil {
 

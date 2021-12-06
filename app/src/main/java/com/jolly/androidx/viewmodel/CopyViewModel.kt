@@ -1,7 +1,7 @@
-package com.jolly.androidx.ViewModels
+package com.jolly.androidx.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.jolly.androidx.Room.CopyRepository
+import com.jolly.androidx.room.CopyRepository
 
 class CopyViewModel internal constructor(copyRepository: CopyRepository): ViewModel() {
 

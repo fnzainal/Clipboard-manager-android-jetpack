@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".Service.ClipBoardMonitorService"
+        <service android:name=".service.ClipBoardMonitorService"
             android:exported="false"/>
     </application>
 

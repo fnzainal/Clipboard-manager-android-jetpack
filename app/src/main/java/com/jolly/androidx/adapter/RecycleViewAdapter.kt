@@ -1,4 +1,4 @@
-package com.jolly.androidx.Adapter
+package com.jolly.androidx.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.jolly.androidx.R
-import com.jolly.androidx.Room.Word
+import com.jolly.androidx.room.Word
 
 class RecycleViewAdapter : RecyclerView.Adapter<RecycleViewAdapter.ViewHolder>() {
     private  var itemList:List<Word> = emptyList()

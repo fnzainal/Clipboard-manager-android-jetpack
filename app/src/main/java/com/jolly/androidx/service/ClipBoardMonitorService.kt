@@ -1,4 +1,4 @@
-package com.jolly.androidx.Service
+package com.jolly.androidx.service
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -16,9 +16,9 @@ import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import com.jolly.androidx.MainActivity
 import com.jolly.androidx.R
-import com.jolly.androidx.Room.CopyRepository
-import com.jolly.androidx.Room.CopyRoomDatabase
-import com.jolly.androidx.Room.Word
+import com.jolly.androidx.room.CopyRepository
+import com.jolly.androidx.room.CopyRoomDatabase
+import com.jolly.androidx.room.Word
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

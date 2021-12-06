@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.jolly.androidx.Adapter.RecycleViewAdapter
-import com.jolly.androidx.Utilities.InjectUtil
-import com.jolly.androidx.ViewModels.CopyViewModel
+import com.jolly.androidx.adapter.RecycleViewAdapter
+import com.jolly.androidx.utilities.InjectUtil
+import com.jolly.androidx.viewmodel.CopyViewModel
 import com.jolly.androidx.databinding.AllDataFragmentBinding
 
 class AllFragment: Fragment() {

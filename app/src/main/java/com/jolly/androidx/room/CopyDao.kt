@@ -1,4 +1,4 @@
-package com.jolly.androidx.Room
+package com.jolly.androidx.room
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

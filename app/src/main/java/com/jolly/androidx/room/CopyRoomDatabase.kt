@@ -1,4 +1,4 @@
-package com.jolly.androidx.Room
+package com.jolly.androidx.room
 
 import android.content.Context
 import androidx.room.Database

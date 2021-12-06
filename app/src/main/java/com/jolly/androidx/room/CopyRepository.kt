@@ -1,8 +1,5 @@
-package com.jolly.androidx.Room
+package com.jolly.androidx.room
 
-import android.util.Log
-import androidx.annotation.WorkerThread
-import androidx.lifecycle.LiveData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

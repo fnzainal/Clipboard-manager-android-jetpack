@@ -1,8 +1,8 @@
-package com.jolly.androidx.ViewModels
+package com.jolly.androidx.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.jolly.androidx.Room.CopyRepository
+import com.jolly.androidx.room.CopyRepository
 
 class CopyModelRepoFactory (private val repo:CopyRepository):ViewModelProvider.NewInstanceFactory() {
 

@@ -1,11 +1,7 @@
 package com.jolly.androidx
 
-import android.content.ComponentName
-import android.content.Context
 import android.content.Intent
-import android.content.ServiceConnection
 import android.os.Bundle
-import android.os.IBinder
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +9,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.jolly.androidx.Service.ClipBoardMonitorService
+import com.jolly.androidx.service.ClipBoardMonitorService
 
 
 class MainActivity : AppCompatActivity(){
